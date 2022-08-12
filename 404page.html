@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Mono">
+    <style>
+      .container{
+        display: flex;
+        margin-bottom: 80px;
+      }
+      .first{
+        width: 40%;
+        margin: 80px;
+     
+      }
+      .not{
+        margin: 20px 0;
+      }
+      .second{
+        margin: 80px 0;
+        width: 22%;
+       
+        padding: 30px;
+      }
+      .scarecrow{
+        width: 90%;
+      }
+      .badnews{
+            font-family: "Space Mono", sans-serif;
+            font-size: 42px;
+            line-height: 75px;
+            letter-spacing: -0.015em;
+            word-spacing: 0.25em;
+            font-style: normal;
+            font-weight: 700;
+            color: #333333;
+        }
+        .thepage{
+            font-family: "Space Mono", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 36px;
+            letter-spacing: -0.035em;
+            color: #4F4F4F;
+            width: 80%;
+        }
+        .btn{
+            font-family: 'monospace';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 8px;
+            /* line-height: 21px; */
+            /* letter-spacing: -0.035em; */
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: #333333;
+            padding: 20px 30px;
+            text-align: center;
+            border: none;
+            
+        }
+
+@media screen and (max-width: 500px) {
+  .container{
+    display: block;
+  }
+  .scarecrow{
+        width: 170%;
+      }
+      .btn{
+        font-size: 12px;
+      }
+      .second{
+      margin: 0 auto;
+      padding: 0 50px;
+      width: 60%;
+      }
+      
+      .thepage{
+        font-size: 20px;
+      }
+      .badnews{
+        font-size: 40px;
+      }
+}
+@media screen and (max-width: 780px) {
+  .container{
+    display: block;
+  }
+  .scarecrow{
+        width: 170%;
+      }
+      .btn{
+        font-size: 12px;
+      }
+      .second{
+      margin: 0 auto;
+      padding: 0 50px;
+      width: 60%;
+      }
+      
+      .thepage{
+        font-size: 20px;
+      }
+      .badnews{
+        font-size: 40px;
+      }
+}
+
+    </style>
+</head>
+<body>
+  <div class="not"><h4>404 NOT FOUND</h4></div>
+    <div class="container">
+
+        <div class="first">
+          <img src="../Resources/404-not-found-master/Scarecrow.png" class="scarecrow" alt="">
+        </div>
+        <div class="second">
+          <h2 class="badnews">I have bad news for you</h2>
+          <p class="thepage">The page you are looking for might be removed or is temporarily unavailable</p>
+          <button type="button" class="btn">Back to homepage</button>
+        </div>
+          
+    </div>
+</body>
+</html>
